@@ -29,7 +29,7 @@ class LatestCard extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(16),
                   child: Image.asset(
-                    movie?.posterPath ?? '',
+                    './assets/blackclover.jpg',
                     width: 150,
                   ),
                 ),
